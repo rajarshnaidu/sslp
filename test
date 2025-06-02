@@ -6,3 +6,5 @@ pyspark \
 driver = sc._jvm.Class.forName("com.datastax.oss.driver.api.core.CqlSession")
 
 jar -tf spark-cassandra-connector-assembly_2.12-3.5.1.jar | grep "CqlSession"
+
+someOtherClass = sc._jvm.Class.forName("com.datastax.oss.driver.api.core.CqlSessionBuilder")
