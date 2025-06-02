@@ -1,0 +1,3 @@
+pyspark \
+  --conf "spark.executor.extraJavaOptions=-Dcom.datastax.driver.OPTIONS.ssl.hostnameValidation=false" \
+  --conf "spark.driver.extraJavaOptions=-Dcom.datastax.driver.OPTIONS.ssl.hostnameValidation=false"
