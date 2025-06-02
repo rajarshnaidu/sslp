@@ -10,3 +10,6 @@ loader = jvm.Thread.currentThread().getContextClassLoader()
 urls = loader.getURLs()
 for url in urls:
     print(url.getPath())
+
+
+pyspark --packages com.datastax.spark:spark-cassandra-connector_2.12:3.5.1
